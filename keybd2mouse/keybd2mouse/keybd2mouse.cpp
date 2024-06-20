@@ -11,11 +11,7 @@
 
 
 int main() {
-
-    int offsetX = -1;
-    int offsetY = 0;
-
-
+    
     while (true) {
         if (GetAsyncKeyState(0x25) & 0x8000) {
             POINT currentPos;
